@@ -1,9 +1,21 @@
 #include<iostream>
 using namespace std;
-
 main()
-{
-   cout<<"Pacman";
+{    system("cls");
+    system("color 34");
 
+ 
+  cout<<"                          .::-----::..                           "<<endl;
+  cout<<"                       .---------------.                         "<<endl;
+  cout<<"                     .-------------------.                       "<<endl;
+  cout<<"                     ------------------:.                        "<<endl;
+  cout<<"                    :-------------::.                            "<<endl;
+  cout<<"                    -------------:.                              "<<endl;
+  cout<<"                    :---------------:..                          "<<endl;
+  cout<<"                     :------------------:.                       "<<endl;
+  cout<<"                      .-----------------:                        "<<endl;
+  cout<<"                        .:-----------:.                          "<<endl;
+  cout<<"                           .::---::..                            "<<endl;
+                              
 
 }
