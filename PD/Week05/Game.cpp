@@ -89,15 +89,16 @@ SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coordinates);
 void printEnemy()
 {
     gotoxy(eX,eY);
-    cout << "(~~~) (~~~)";
+    cout << "|#######|  ";
     gotoxy(eX,eY+1);
-    cout << "|=| | | |=|";
+    cout << "|  E-1  |   ";
     gotoxy(eX,eY+2);
-    cout << "|=| | | |=|";
+    cout << "|__ _ __|  ";
     gotoxy(eX,eY+3);
-    cout << "   \\   /   ";
+    cout << "   | |         ";
     gotoxy(eX,eY+4);
-    cout << "    \\ /    ";
+    cout << "   |O|   ";
+    
 }
 
 
@@ -145,15 +146,15 @@ void erasePlayer()
 void printPlayer()
 {
     gotoxy(pX,pY);
-    cout << "      /\\      ";
+    cout << "      |O|           ";
     gotoxy(pX, pY+1);
-    cout << "   __/~~\\__   ";
+    cout << "    __|_|__         ";
     gotoxy(pX, pY+2);
-    cout << " /   |  |   \\ ";
+    cout << "   |*******|        ";
     gotoxy(pX, pY+3);
-    cout << "=====.  .=====";
+    cout << "   | T-14  |         ";
     gotoxy(pX, pY+4);
-    cout << "     ||||     ";
+    cout << "   |*_____*|        ";
 }
 
 
